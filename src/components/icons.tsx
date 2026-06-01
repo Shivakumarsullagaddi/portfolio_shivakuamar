@@ -1,10 +1,54 @@
-import { GlobeIcon, MailIcon } from "lucide-react";
+import {
+  BotIcon,
+  BrainCircuitIcon,
+  BracesIcon,
+  CloudIcon,
+  DatabaseZapIcon,
+  FileCode2Icon,
+  GitBranchIcon,
+  GlobeIcon,
+  MailIcon,
+  NetworkIcon,
+  WorkflowIcon,
+} from "lucide-react";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export const Icons = {
   globe: (props: IconProps) => <GlobeIcon {...props} />,
   email: (props: IconProps) => <MailIcon {...props} />,
+  c: (props: IconProps) => (
+    <svg viewBox="0 0 32 32" role="img" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <title>C</title>
+      <path
+        fill="#A8B9CC"
+        d="M29.43 11.11a2.19 2.19 0 0 0-1.09-1.9L17.09 2.73a2.18 2.18 0 0 0-2.18 0L3.66 9.22a2.19 2.19 0 0 0-1.09 1.9v9.77a2.19 2.19 0 0 0 1.09 1.9l11.25 6.48a2.18 2.18 0 0 0 2.18 0l11.25-6.48a2.19 2.19 0 0 0 1.09-1.9z"
+      />
+      <path
+        fill="#fff"
+        d="M16.23 23.2c-4.16 0-7.2-3.04-7.2-7.2s3.04-7.2 7.2-7.2c2.56 0 4.73 1.25 6.02 3.3l-2.86 1.65a3.43 3.43 0 0 0-3.16-1.85c-2.3 0-3.86 1.65-3.86 4.1s1.56 4.1 3.86 4.1c1.42 0 2.54-.66 3.16-1.85l2.86 1.65c-1.27 2.05-3.46 3.3-6.02 3.3z"
+      />
+    </svg>
+  ),
+  javascript: (props: IconProps) => (
+    <svg viewBox="0 0 32 32" role="img" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <title>JavaScript</title>
+      <path fill="#F7DF1E" d="M2 2h28v28H2z" />
+      <path
+        fill="#000"
+        d="M19.32 23.87c.56.91 1.29 1.58 2.59 1.58 1.09 0 1.79-.55 1.79-1.3 0-.91-.72-1.23-1.93-1.76l-.66-.28c-1.91-.81-3.18-1.83-3.18-3.99 0-1.98 1.51-3.49 3.87-3.49 1.68 0 2.89.58 3.76 2.12l-2.06 1.32c-.45-.81-.94-1.13-1.7-1.13-.77 0-1.26.49-1.26 1.13 0 .79.49 1.11 1.63 1.61l.66.28c2.25.96 3.52 1.95 3.52 4.16 0 2.38-1.87 3.69-4.39 3.69-2.46 0-4.05-1.17-4.83-2.7zm-9.37.23c.41.73.79 1.35 1.7 1.35.87 0 1.42-.34 1.42-1.67v-8.99h2.65v9.03c0 2.74-1.61 3.99-3.95 3.99-2.12 0-3.35-1.1-3.97-2.42z"
+      />
+    </svg>
+  ),
+  appsScript: (props: IconProps) => <FileCode2Icon color="#4285F4" {...props} />,
+  agenticAi: (props: IconProps) => <BotIcon color="#8B5CF6" {...props} />,
+  llms: (props: IconProps) => <BrainCircuitIcon color="#EC4899" {...props} />,
+  rag: (props: IconProps) => <GitBranchIcon color="#14B8A6" {...props} />,
+  vectorEmbeddings: (props: IconProps) => <NetworkIcon color="#6366F1" {...props} />,
+  gcp: (props: IconProps) => <CloudIcon color="#4285F4" {...props} />,
+  bigQuery: (props: IconProps) => <DatabaseZapIcon color="#669DF6" {...props} />,
+  mcp: (props: IconProps) => <BracesIcon color="#F97316" {...props} />,
+  n8n: (props: IconProps) => <WorkflowIcon color="#EA4B71" {...props} />,
   linkedin: (props: IconProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
       <title>LinkedIn</title>
