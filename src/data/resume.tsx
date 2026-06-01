@@ -33,7 +33,7 @@ export const DATA = {
     "Computer Science student at PES University focused on agentic AI, applied machine learning, and practical automation systems.",
   summary:
     "I am pursuing a Bachelor of Technology in Computer Science at PES University and building across AI/ML, agentic systems, and automation. As a Research Intern at CDSAML, PES University, I work on Alzheimer's Disease classification from MRI scans using deep learning architectures such as VGG, ResNet, DenseNet, and EfficientNet-B2. I also serve as a Teaching Assistant for C and Python programming courses, where I create practical exercises and help students strengthen their problem-solving skills.",
-  avatarUrl: "/ushivakumar.jpg?v=2",
+  avatarUrl: "/ushivakumar1.jpg",
   skills: [
     { name: "Python", icon: Python },
     { name: "C", icon: Icons.c },
